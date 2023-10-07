@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <>
-      <section className="relative flex justify-center mb-[4.5rem]">
+      <main className="relative flex justify-center mb-[4.5rem]">
         <div className="h-30 sm:h-[400px] w-80 flex gap-5 sm:flex-col bg-[#5746EA] rounded-2xl p-7  ">
           <img
             className="w-20 sm:w-28 h-20 sm:h-28 sm:mb-9  rounded-full border-4 border-solid border-white"
@@ -58,7 +58,7 @@ const Profile = () => {
             Monthly
           </p>
         </div>
-      </section>
+      </main>
 
       {/* Render the TimeCard component with the selected timeframe and data */}
       <section className="grid sm:grid-cols-3 justify-center gap-24 sm:gap-8 sm:gap-y-[10.5rem] ">
