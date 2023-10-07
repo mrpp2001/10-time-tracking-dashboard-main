@@ -105,7 +105,7 @@ const TimeCard = ({ selectedTimeframe }) => {
           }
 
           return (
-            <main key={record.title} className="relative">
+            <div key={record.title} className="relative">
               <div
                 style={{ backgroundColor }}
                 className="w-80 rounded-t-2xl flex justify-end relative 
@@ -130,7 +130,7 @@ const TimeCard = ({ selectedTimeframe }) => {
                   </p>
                 </div>
               </div>
-            </main>
+            </div>
           );
         })}
     </>
